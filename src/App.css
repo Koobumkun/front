@@ -1,0 +1,30 @@
+.movieContainer {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.movieCard {
+    border:1px solid black;
+    width: 300px;
+    height:400px;
+}
+
+.movieCard img {
+    width: 300px;
+    height:400px;
+}
+
+.hoveredMovieCard {
+    display: flex;
+}
+
+.hoveredMovieCard img {
+    opacity: 0.5;
+}
+
+.hoveredMovieCardOverview {
+    position: absolute;
+    text-overflow: ellipsis;
+    width:300px;
+    height:400px;
+}
